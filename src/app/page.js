@@ -3,13 +3,12 @@ import Image from "next/image";
 import "./assets/css/main.css";
 import Navigation from "./components/Navigation";
 import { motion } from "motion/react";
+import Link from "next/link";
 
 export default function Home() {
   return (
-    
     <div>
       <Navigation activePage="home" />
-
       <motion.h1
         animate={{
           x: ["0%", "5%", "-5%", "0%"],
@@ -22,12 +21,10 @@ export default function Home() {
       >
         Tennis Daily
       </motion.h1>
-
       <h2>Tournaments</h2>
       <section id="tournaments">
-        <a className="tournament" href="tournament.html">Wimbledon</a>
+        <Link className="tournament" href="/tournament">Wimbledon</Link>
       </section>
-
       <h2>Latest News</h2>
       <section id="news">
         <article className="article">
@@ -43,7 +40,7 @@ export default function Home() {
           </a>
         </article>
         <article className="article">
-          <h3>Women's Singles Finalists Announced</h3>
+          <h3>Women&apos;s Singles Finalists Announced</h3>
           <a target="_blank" href="https://www.cnn.com/sport/live-news/wimbledon-semifinals-womens-spt">
             <img src="/images/womens.jpg" alt="Picture of ladies' singles finalists Anisimova and Swiatek" />
           </a>

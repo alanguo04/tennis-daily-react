@@ -14,11 +14,11 @@ export default function Player() {
         </div>
         <div className="bio">
           <p>
-            Novak Djokovic is a Serbian professional tennis player who is currently ranked world No. 1 in men's singles tennis by the Association of Tennis Professionals (ATP). 
+            Novak Djokovic is a Serbian professional tennis player who is currently ranked world No. 1 in men&apos;s singles tennis by the Association of Tennis Professionals (ATP). 
             He has been ranked No. 1 for a record total of 400 weeks, and has finished as the year-end No. 1 a record eight times.
           </p>
           <p>
-            Djokovic has won 24 Grand Slam men's singles titles, including a record ten Australian Open titles. 
+            Djokovic has won 24 Grand Slam men&apos;s singles titles, including a record ten Australian Open titles. 
             He has also won seven Wimbledon titles, four US Open titles, and three French Open titles, making him the first man in tennis history to achieve a triple Career Grand Slam.
           </p>
           <p>
